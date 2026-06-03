@@ -6,13 +6,6 @@ Ambas versiones piden al usuario un número total y una cantidad de hilos, repar
 
 ---
 
-## Estructura del proyecto
-├── go/
-│   └── main.go
-└── java/
-├── HelloThread.java
-└── Prueba.java
----
 
 ## Go — `main.go`
 
