@@ -53,14 +53,50 @@ Ingresa el número total: 10
 Ingresa la cantidad de threads: 3
 
 0-
+
 1-
+
 2-
+
 3-
+
 4-
+
 5-
+
 6-
+
 7-
+
 8-
+
 9-
 
 Tiempo total: 63224700 ns
+
+## Tendencia con el numero de hilos
+
+## Escalabilidad en Java
+
+| Cantidad de hilos | Tiempo total |
+|------------------|-------------|
+| 2 hilos | 149 ms | 
+| 8 hilos | 102 ms |
+| 16 hilos | 82 ms |
+
+## Escalabilidad en Go
+
+| Cantidad de goroutines | Tiempo total |
+|-----------------------|-------------|
+| 2 goroutines | 69 ms | 
+| 8 goroutines | 36 ms | 
+| 16 goroutines | 47 ms | 
+
+
+## Comparación Java vs Go
+
+| Hilos/Goroutines | Java | Go |
+|-----------------|------|----|
+| 2 | 149 ms | 69 ms |
+| 8 | 102 ms | 36 ms |
+| 16 | 82 ms | 47 ms |
