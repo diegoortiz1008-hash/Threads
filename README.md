@@ -75,6 +75,7 @@ Ingresa la cantidad de threads: 3
 Tiempo total: 63224700 ns
 
 ## Tendencia con el numero de hilos
+Prueba realizada con n = 50000000
 
 ## Escalabilidad en Java
 
